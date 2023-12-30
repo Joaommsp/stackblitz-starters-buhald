@@ -1,0 +1,17 @@
+<h1>Hello World!</h1>
+
+<!-- Data biding = associação de dados -->
+<div>
+  <!-- interpolação -->
+  <my-button label="{{ buttonLabel }}"></my-button>
+
+  <!-- property biding -->
+  <my-button [label]="buttonLabel"></my-button>
+  <my-button [label]="buttonSecond"></my-button>
+
+  <!-- colocando um valor diretamente -->
+  <my-button label="Olá mundo"></my-button>
+
+  <!-- two way databind -->
+  <app-entry-data></app-entry-data>
+</div>
